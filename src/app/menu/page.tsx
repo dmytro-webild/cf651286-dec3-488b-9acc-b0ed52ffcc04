@@ -52,7 +52,7 @@ export default function MenuPage() {
             { title: "Pratos do Dia", description: "Especialidades diárias que variam conforme a estação e disponibilidade de ingredientes.", icon: Star },
             { title: "Acompanhamentos Variados", description: "Arroz, batata frita, saladas frescas e outras opções para completar o seu prato.", icon: Star },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/side-view-traditional-azerbaijani-buglama-white-plate_140725-10306.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/side-view-traditional-azerbaijani-buglama-white-plate_140725-10306.jpg?_wi=3"
           imageAlt="Pratos tradicionais portugueses"
           imagePosition="right"
           textboxLayout="default"
@@ -65,9 +65,9 @@ export default function MenuPage() {
       <div id="featured-menu-items" data-section="featured-menu-items">
         <ProductCardFour
           products={[
-            { id: "1", name: "Frango na Brasa", price: "€8.50", variant: "Inteiro ou Meia dose", imageSrc: "http://img.b2bpic.net/free-photo/side-view-tobacco-pita-bread-with-onions-sauce-with-salad-olives_141793-5139.jpg", imageAlt: "Frango grelhado na brasa", isFavorited: false },
-            { id: "2", name: "Peixe Grelhado", price: "€10.00", variant: "Corvina, Robalo ou Dourada", imageSrc: "http://img.b2bpic.net/free-photo/fried-fish-with-lemon-slices-garlic_140725-6641.jpg", imageAlt: "Peixe fresco grelhado", isFavorited: false },
-            { id: "3", name: "Carne Assada", price: "€9.50", variant: "Bifes ou Novilho", imageSrc: "http://img.b2bpic.net/free-photo/steak-with-vegetable-salad-fried-potatoes_114579-3255.jpg", imageAlt: "Carne premium grelhada", isFavorited: false },
+            { id: "1", name: "Frango na Brasa", price: "€8.50", variant: "Inteiro ou Meia dose", imageSrc: "http://img.b2bpic.net/free-photo/side-view-tobacco-pita-bread-with-onions-sauce-with-salad-olives_141793-5139.jpg?_wi=3", imageAlt: "Frango grelhado na brasa", isFavorited: false },
+            { id: "2", name: "Peixe Grelhado", price: "€10.00", variant: "Corvina, Robalo ou Dourada", imageSrc: "http://img.b2bpic.net/free-photo/fried-fish-with-lemon-slices-garlic_140725-6641.jpg?_wi=3", imageAlt: "Peixe fresco grelhado", isFavorited: false },
+            { id: "3", name: "Carne Assada", price: "€9.50", variant: "Bifes ou Novilho", imageSrc: "http://img.b2bpic.net/free-photo/steak-with-vegetable-salad-fried-potatoes_114579-3255.jpg?_wi=3", imageAlt: "Carne premium grelhada", isFavorited: false },
           ]}
           title="Pratos Recomendados"
           description="Os favoritos dos nossos clientes - escolhas perfeitas para uma refeição memorável."
@@ -98,7 +98,7 @@ export default function MenuPage() {
             { title: "Jantar", description: "18:00 - 22:30 | Ambiente acolhedor para refeições tranquilas", icon: Star },
             { title: "Takeaway", description: "Disponível durante todo o horário de funcionamento", icon: Star },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/baked-chicken-with-brussels-sprouts-table_23-2147954307.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/baked-chicken-with-brussels-sprouts-table_23-2147954307.jpg?_wi=2"
           imageAlt="Porções generosas do Sabor Dos Anjos"
           imagePosition="left"
           textboxLayout="default"

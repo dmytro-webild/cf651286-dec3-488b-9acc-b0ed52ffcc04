@@ -70,7 +70,7 @@ export default function ContactPage() {
             { title: "Email", description: "info@sabordosanjos.pt | Envie-nos uma mensagem e responderemos dentro de 24 horas.", icon: Phone },
             { title: "Horário", description: "Seg-Dom: 11:30-15:00 (almoço) | 18:00-22:30 (jantar) | Encerrado aos segundos", icon: Clock },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/baked-chicken-with-brussels-sprouts-table_23-2147954307.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/baked-chicken-with-brussels-sprouts-table_23-2147954307.jpg?_wi=3"
           imageAlt="Prato especial do Sabor Dos Anjos"
           imagePosition="right"
           textboxLayout="default"

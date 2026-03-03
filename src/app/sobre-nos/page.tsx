@@ -52,7 +52,7 @@ export default function AboutPage() {
             { title: "Qualidade Inquestionável", description: "Seleção rigorosa de ingredientes frescos, fornecedores locais de confiança.", icon: Award },
             { title: "Acolhimento Genuíno", description: "Sentir-se em casa é a nossa prioridade. Cada cliente é parte da nossa comunidade.", icon: Heart },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/wedding-hall-interior-design-photo-shooting_114579-2234.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/wedding-hall-interior-design-photo-shooting_114579-2234.jpg?_wi=3"
           imageAlt="Interior acolhedor do Sabor Dos Anjos"
           imagePosition="right"
           textboxLayout="default"
@@ -65,10 +65,10 @@ export default function AboutPage() {
       <div id="about-testimonials" data-section="about-testimonials">
         <TestimonialCardTwelve
           testimonials={[
-            { id: "1", name: "Maria Silva", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg", imageAlt: "Maria Silva" },
-            { id: "2", name: "João Costa", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg", imageAlt: "João Costa" },
-            { id: "3", name: "Ana Pereira", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg", imageAlt: "Ana Pereira" },
-            { id: "4", name: "Pedro Oliveira", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg", imageAlt: "Pedro Oliveira" },
+            { id: "1", name: "Maria Silva", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=5", imageAlt: "Maria Silva" },
+            { id: "2", name: "João Costa", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=6", imageAlt: "João Costa" },
+            { id: "3", name: "Ana Pereira", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=7", imageAlt: "Ana Pereira" },
+            { id: "4", name: "Pedro Oliveira", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=8", imageAlt: "Pedro Oliveira" },
           ]}
           cardTitle="O que os nossos clientes dizem sobre nós"
           cardTag="Avaliações de Clientes"
@@ -94,7 +94,7 @@ export default function AboutPage() {
             { title: "Autenticidade", description: "Mantemos vivas as tradições portuguesas, honrando a culinária do nosso povo.", icon: Heart },
             { title: "Comunidade", description: "Somos parte da comunidade local, apoiamos negócios locais e criamos relações duradouras.", icon: Heart },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/woman-squashing-dough-with-fork-before-baking-top-view_176474-5545.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/woman-squashing-dough-with-fork-before-baking-top-view_176474-5545.jpg?_wi=3"
           imageAlt="Comida caseira sendo preparada com cuidado"
           imagePosition="left"
           textboxLayout="default"

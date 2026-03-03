@@ -57,16 +57,16 @@ export default function HomePage() {
           ]}
           buttonAnimation="slide-up"
           leftCarouselItems={[
-            { imageSrc: "http://img.b2bpic.net/free-photo/side-view-traditional-azerbaijani-buglama-white-plate_140725-10306.jpg", imageAlt: "Prato tradicional português" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/side-view-tobacco-pita-bread-with-onions-sauce-with-salad-olives_141793-5139.jpg", imageAlt: "Frango grelhado" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/steak-with-vegetable-salad-fried-potatoes_114579-3255.jpg", imageAlt: "Carne grelhada" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/wedding-hall-interior-design-photo-shooting_114579-2234.jpg", imageAlt: "Interior do restaurante" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/side-view-traditional-azerbaijani-buglama-white-plate_140725-10306.jpg?_wi=1", imageAlt: "Prato tradicional português" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/side-view-tobacco-pita-bread-with-onions-sauce-with-salad-olives_141793-5139.jpg?_wi=1", imageAlt: "Frango grelhado" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/steak-with-vegetable-salad-fried-potatoes_114579-3255.jpg?_wi=1", imageAlt: "Carne grelhada" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/wedding-hall-interior-design-photo-shooting_114579-2234.jpg?_wi=1", imageAlt: "Interior do restaurante" },
           ]}
           rightCarouselItems={[
-            { imageSrc: "http://img.b2bpic.net/free-photo/fried-fish-with-lemon-slices-garlic_140725-6641.jpg", imageAlt: "Peixe grelhado" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/baked-chicken-with-brussels-sprouts-table_23-2147954307.jpg", imageAlt: "Porções generosas" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/woman-squashing-dough-with-fork-before-baking-top-view_176474-5545.jpg", imageAlt: "Comida caseira" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/side-view-traditional-azerbaijani-buglama-white-plate_140725-10306.jpg", imageAlt: "Experiência gastronómica" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/fried-fish-with-lemon-slices-garlic_140725-6641.jpg?_wi=1", imageAlt: "Peixe grelhado" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/baked-chicken-with-brussels-sprouts-table_23-2147954307.jpg?_wi=1", imageAlt: "Porções generosas" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/woman-squashing-dough-with-fork-before-baking-top-view_176474-5545.jpg?_wi=1", imageAlt: "Comida caseira" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/side-view-traditional-azerbaijani-buglama-white-plate_140725-10306.jpg?_wi=2", imageAlt: "Experiência gastronómica" },
           ]}
           carouselPosition="right"
           background={{ variant: "glowing-orb" }}
@@ -87,7 +87,7 @@ export default function HomePage() {
             { title: "Preços Acessíveis", description: "Qualidade premium com preços justos. Almoço completo de €5-10, como deve ser.", icon: TrendingDown },
             { title: "Atendimento Rápido", description: "Eficiência sem sacrificar a qualidade. Perfeito para quem tem pressa mas não quer comprometer.", icon: Zap },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/wedding-hall-interior-design-photo-shooting_114579-2234.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/wedding-hall-interior-design-photo-shooting_114579-2234.jpg?_wi=2"
           imageAlt="Ambiente acolhedor do Sabor Dos Anjos"
           imagePosition="right"
           textboxLayout="default"
@@ -100,9 +100,9 @@ export default function HomePage() {
       <div id="featured-dishes" data-section="featured-dishes">
         <ProductCardFour
           products={[
-            { id: "1", name: "Frango na Brasa", price: "€8.50", variant: "Inteiro ou Meia dose", imageSrc: "http://img.b2bpic.net/free-photo/side-view-tobacco-pita-bread-with-onions-sauce-with-salad-olives_141793-5139.jpg", imageAlt: "Frango grelhado na brasa", isFavorited: false },
-            { id: "2", name: "Peixe Grelhado", price: "€10.00", variant: "Corvina, Robalo ou Dourada", imageSrc: "http://img.b2bpic.net/free-photo/fried-fish-with-lemon-slices-garlic_140725-6641.jpg", imageAlt: "Peixe fresco grelhado", isFavorited: false },
-            { id: "3", name: "Carne Assada", price: "€9.50", variant: "Bifes ou Novilho", imageSrc: "http://img.b2bpic.net/free-photo/steak-with-vegetable-salad-fried-potatoes_114579-3255.jpg", imageAlt: "Carne premium grelhada", isFavorited: false },
+            { id: "1", name: "Frango na Brasa", price: "€8.50", variant: "Inteiro ou Meia dose", imageSrc: "http://img.b2bpic.net/free-photo/side-view-tobacco-pita-bread-with-onions-sauce-with-salad-olives_141793-5139.jpg?_wi=2", imageAlt: "Frango grelhado na brasa", isFavorited: false },
+            { id: "2", name: "Peixe Grelhado", price: "€10.00", variant: "Corvina, Robalo ou Dourada", imageSrc: "http://img.b2bpic.net/free-photo/fried-fish-with-lemon-slices-garlic_140725-6641.jpg?_wi=2", imageAlt: "Peixe fresco grelhado", isFavorited: false },
+            { id: "3", name: "Carne Assada", price: "€9.50", variant: "Bifes ou Novilho", imageSrc: "http://img.b2bpic.net/free-photo/steak-with-vegetable-salad-fried-potatoes_114579-3255.jpg?_wi=2", imageAlt: "Carne premium grelhada", isFavorited: false },
           ]}
           title="Especialidades da Casa"
           description="Descobra os nossos pratos mais procurados - receitas que definem o sabor português autêntico."
@@ -120,10 +120,10 @@ export default function HomePage() {
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardTwelve
           testimonials={[
-            { id: "1", name: "Maria Silva", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg", imageAlt: "Maria Silva" },
-            { id: "2", name: "João Costa", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg", imageAlt: "João Costa" },
-            { id: "3", name: "Ana Pereira", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg", imageAlt: "Ana Pereira" },
-            { id: "4", name: "Pedro Oliveira", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg", imageAlt: "Pedro Oliveira" },
+            { id: "1", name: "Maria Silva", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=1", imageAlt: "Maria Silva" },
+            { id: "2", name: "João Costa", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=2", imageAlt: "João Costa" },
+            { id: "3", name: "Ana Pereira", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=3", imageAlt: "Ana Pereira" },
+            { id: "4", name: "Pedro Oliveira", imageSrc: "http://img.b2bpic.net/free-photo/young-businesswoman-portrait-office_1262-1506.jpg?_wi=4", imageAlt: "Pedro Oliveira" },
           ]}
           cardTitle="Classificação 5 Estrelas no Google - Dezenas de Clientes Satisfeitos"
           cardTag="Local Guide - Avaliações Verificadas"
@@ -169,7 +169,7 @@ export default function HomePage() {
             { id: "2", title: "Takeaway Rápido", content: "Encomende o seu prato favorito e retire em 15-20 minutos. Entrega rápida também disponível." },
             { id: "3", title: "Eventos & Catering", content: "Eventos especiais? Oferecemos catering para reuniões, festas e celebrações. Orçamento sem compromisso!" },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/woman-squashing-dough-with-fork-before-baking-top-view_176474-5545.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/woman-squashing-dough-with-fork-before-baking-top-view_176474-5545.jpg?_wi=2"
           imageAlt="Comida fresca sendo preparada"
           mediaAnimation="slide-up"
           useInvertedBackground={false}

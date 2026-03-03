@@ -1,0 +1,143 @@
+{
+  "name": "HeroBillboardTestimonial",
+  "description": "Billboard-layout hero section with centered text content above full-width image/video with rotating testimonial overlay.",
+  "constraints": {
+    "textRules": {
+      "title": {
+        "required": true,
+        "example": "Build Modern Web Experiences",
+        "minChars": 2,
+        "maxChars": 36
+      },
+      "description": {
+        "required": true,
+        "example": "Create stunning, responsive websites with our comprehensive component library",
+        "minChars": 5,
+        "maxChars": 200
+      },
+      "tag": {
+        "required": false,
+        "example": "New Release",
+        "minChars": 2,
+        "maxChars": 30
+      }
+    },
+    "testimonialRules": {
+      "testimonials": {
+        "required": true,
+        "minItems": 1,
+        "maxItems": 5,
+        "structure": {
+          "name": "string - Author name",
+          "handle": "string - Author title/role",
+          "testimonial": "string - Testimonial text",
+          "rating": "number - Star rating (1-5)",
+          "imageSrc": "string - Author avatar image (optional)",
+          "imageAlt": "string - Alt text for avatar (optional)"
+        }
+      },
+      "testimonialRotationInterval": {
+        "required": false,
+        "default": 5000,
+        "note": "Interval in milliseconds between testimonial rotations"
+      }
+    },
+    "mediaRules": {
+      "imageSrc": {
+        "required": false,
+        "example": "/hero-image.jpg",
+        "note": "Supports external URLs with unoptimized prop"
+      },
+      "videoSrc": {
+        "required": false,
+        "example": "/hero-video.mp4",
+        "note": "Takes precedence over imageSrc if both provided"
+      },
+      "imageAlt": {
+        "required": false,
+        "example": "Product showcase",
+        "note": "Empty string marks image as decorative (aria-hidden)"
+      }
+    },
+    "buttonRules": {
+      "maxButtons": 2,
+      "structure": {
+        "text": "string - Button label",
+        "href": "string - Link destination (optional). External URLs (https://, http://, www.) open in new tab. Internal values (e.g., 'about', 'contact') scroll to #about, #contact sections",
+        "onClick": "() => void - Additional click handler (optional)",
+        "props": "Partial<ButtonPropsForVariant> - Additional button props like className, textClassName (optional)"
+      },
+      "examples": [
+        "{ text: 'Get Started', href: 'https://example.com' }",
+        "{ text: 'Learn More', href: 'about' }"
+      ],
+      "note": "Button variant is controlled by ThemeProvider's defaultButtonVariant. Border radius is controlled by ThemeProvider's borderRadius (options: 'sharp', 'rounded', 'soft', 'pill'). All sections should be wrapped in a single ThemeProvider at the app/page level to maintain consistent styling across the entire site."
+    }
+  },
+  "propsSchema": {
+    "title": "string",
+    "description": "string",
+    "background": "{ variant: 'plain' | 'animated-grid' | 'canvas-reveal' | 'cell-wave' | 'downward-rays-animated' | 'downward-rays-animated-grid' | 'downward-rays-static' | 'downward-rays-static-grid' | 'glowing-orb' | 'gradient-bars' | 'radial-gradient' | 'rotated-rays-animated' | 'rotated-rays-animated-grid' | 'rotated-rays-static' | 'rotated-rays-static-grid' | 'sparkles-gradient' }",
+    "testimonials": "Array<{ name: string, handle: string, testimonial: string, rating: number, imageSrc?: string, imageAlt?: string }>",
+    "testimonialRotationInterval?": "number (default: 5000)",
+    "useInvertedBackground?": "boolean (default: false)",
+    "tag?": "string",
+    "tagIcon?": "LucideIcon",
+    "tagAnimation?": "'none' | 'opacity' | 'slide-up' | 'blur-reveal'",
+    "buttons?": "Array<{text: string, onClick?: () => void, href?: string}>",
+    "buttonAnimation?": "'none' | 'opacity' | 'slide-up' | 'blur-reveal'",
+    "avatars?": "Avatar[] - Array of avatar objects with src and alt properties",
+    "mediaAnimation?": "'none' | 'opacity' | 'slide-up' | 'blur-reveal' (default: 'none')",
+    "avatarText?": "string - Text displayed next to the avatar group",
+    "imageSrc?": "string",
+    "videoSrc?": "string",
+    "imageAlt?": "string (default: '')",
+    "videoAriaLabel?": "string (default: 'Hero video')",
+    "ariaLabel?": "string (default: 'Hero section')",
+    "className?": "string",
+    "containerClassName?": "string",
+    "textBoxClassName?": "string",
+    "titleClassName?": "string",
+    "descriptionClassName?": "string",
+    "tagClassName?": "string",
+    "buttonContainerClassName?": "string",
+    "buttonClassName?": "string",
+    "buttonTextClassName?": "string",
+    "mediaWrapperClassName?": "string",
+    "imageClassName?": "string",
+    "avatarGroupClassName?": "string",
+    "testimonialCardClassName?": "string",
+    "testimonialContentClassName?": "string",
+    "testimonialTextClassName?": "string",
+    "testimonialRatingClassName?": "string",
+    "testimonialAuthorClassName?": "string",
+    "testimonialAuthorImageClassName?": "string",
+    "testimonialAuthorNameClassName?": "string",
+    "testimonialAuthorHandleClassName?": "string",
+    "marqueeItems?": "MarqueeItem[]",
+    "marqueeSpeed?": "number (default: 30)",
+    "showMarqueeCard?": "boolean (default: true)",
+    "marqueeClassName?": "string",
+    "marqueeItemClassName?": "string",
+    "marqueeCardClassName?": "string",
+    "marqueeImageClassName?": "string",
+    "marqueeTextClassName?": "string",
+    "marqueeIconClassName?": "string"
+  },
+  "usageExample": "<ThemeProvider defaultButtonVariant=\"icon-arrow\" defaultTextAnimation=\"entrance-slide\" borderRadius=\"pill\" background=\"aurora\" cardStyle=\"glass-elevated\" primaryButtonStyle=\"gradient\" secondaryButtonStyle=\"glass\">\n  <HeroBillboardTestimonial \n    title=\"Build Modern Web Experiences\" \n    description=\"Create stunning, responsive websites with our comprehensive component library\" \n    background={{ variant: 'glowing-orb' }}\n    tag=\"New Release\"\n    tagIcon={Sparkles}\n    imageSrc=\"/hero.jpg\"\n    imageAlt=\"Product showcase\"\n    mediaAnimation=\"slide-up\"\n    buttons={[{ text: 'Get Started', href: 'https://example.com' }, { text: 'Learn More', href: 'about' }]}\n    buttonAnimation=\"blur-reveal\"\n    testimonials={[\n      { name: 'Sarah Johnson', handle: 'CEO, TechCorp', testimonial: 'This transformed our workflow!', rating: 5, imageSrc: '/avatar.jpg' },\n      { name: 'Michael Chen', handle: 'CTO, StartupXYZ', testimonial: 'Best investment we made.', rating: 5, imageSrc: '/avatar2.jpg' }\n    ]}\n  />\n</ThemeProvider>",
+  "do": [
+    "Use for landing pages with social proof",
+    "Use for product showcases with testimonials",
+    "Use when customer reviews add credibility",
+    "Use when centered layout is preferred over split",
+    "Requires testimonials[]",
+    "Requires buttons?[]",
+    "Requires avatars?[]"
+  ],
+  "dont": [],
+  "editRules": {
+    "textOnly": true,
+    "layoutLocked": true,
+    "styleLocked": true
+  }
+}

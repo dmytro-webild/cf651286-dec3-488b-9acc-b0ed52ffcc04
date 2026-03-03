@@ -6,42 +6,26 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 
 const libreBaskerville = Libre_Baskerville({
-  variable: "--font-libre-baskerville",
-  subsets: ["latin"],
+  variable: "--font-libre-baskerville",  subsets: ["latin"],
   weight: ["400", "700"],
 });
 
 const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
+  variable: "--font-inter",  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Sabor Dos Anjos - Restaurante Português em Queluz | Comida Caseira",
-  description: "Autêntico restaurante português em Queluz. Comida caseira, doses generosas, preços acessíveis. Almoço €5-10. Reservas, takeaway e catering. 5 estrelas no Google.",
-  keywords: "restaurante em Queluz, comida portuguesa, churrasqueira Queluz, almoço português, comida caseira, preços acessíveis",
-  metadataBase: new URL("https://sabordosanjos.pt"),
+  title: "Sabor Dos Anjos - Restaurante Português em Queluz | Comida Caseira",  description: "Autêntico restaurante português em Queluz. Comida caseira, doses generosas, preços acessíveis. Almoço €5-10. Reservas, takeaway e catering. 5 estrelas no Google.",  keywords: "restaurante em Queluz, comida portuguesa, churrasqueira Queluz, almoço português, comida caseira, preços acessíveis",  metadataBase: new URL("https://sabordosanjos.pt"),
   alternates: {
-    canonical: "https://sabordosanjos.pt",
-  },
+    canonical: "https://sabordosanjos.pt"},
   openGraph: {
-    title: "Sabor Dos Anjos - Restaurante Português em Queluz",
-    description: "Autêntico restaurante português com comida caseira, doses generosas e preços acessíveis. Especializado em grelhados.",
-    url: "https://sabordosanjos.pt",
-    siteName: "Sabor Dos Anjos",
-    type: "website",
-    images: [
+    title: "Sabor Dos Anjos - Restaurante Português em Queluz",    description: "Autêntico restaurante português com comida caseira, doses generosas e preços acessíveis. Especializado em grelhados.",    url: "https://sabordosanjos.pt",    siteName: "Sabor Dos Anjos",    type: "website",    images: [
       {
-        url: "http://img.b2bpic.net/free-photo/side-view-traditional-azerbaijani-buglama-white-plate_140725-10306.jpg",
-        alt: "Prato tradicional português - Sabor Dos Anjos",
-      },
+        url: "http://img.b2bpic.net/free-photo/side-view-traditional-azerbaijani-buglama-white-plate_140725-10306.jpg",        alt: "Prato tradicional português - Sabor Dos Anjos"},
     ],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Sabor Dos Anjos - Autêntico Restaurante Português",
-    description: "Comida caseira, doses generosas, preços acessíveis. Almoço de €5-10. Reservas agora!",
-    images: ["http://img.b2bpic.net/free-photo/side-view-traditional-azerbaijani-buglama-white-plate_140725-10306.jpg"],
+    card: "summary_large_image",    title: "Sabor Dos Anjos - Autêntico Restaurante Português",    description: "Comida caseira, doses generosas, preços acessíveis. Almoço de €5-10. Reservas agora!",    images: ["http://img.b2bpic.net/free-photo/side-view-traditional-azerbaijani-buglama-white-plate_140725-10306.jpg"],
   },
   robots: {
     index: true,

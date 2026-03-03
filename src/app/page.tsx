@@ -38,9 +38,7 @@ export default function HomePage() {
           brandName="Sabor Dos Anjos"
           navItems={navItems}
           button={{
-            text: "Ligar Agora",
-            href: "tel:+351-21-xxxxxxx",
-          }}
+            text: "Ligar Agora",            href: "tel:+351-21-xxxxxxx"}}
         />
       </div>
 
@@ -109,6 +107,10 @@ export default function HomePage() {
           tag="Recomendações"
           tagIcon={Star}
           tagAnimation="slide-up"
+          buttons={[
+            { text: "Ver Menu Completo", href: "/menu" },
+          ]}
+          buttonAnimation="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
           gridVariant="three-columns-all-equal-width"
@@ -182,8 +184,7 @@ export default function HomePage() {
         <FooterBaseReveal
           columns={[
             {
-              title: "Contacto",
-              items: [
+              title: "Contacto",              items: [
                 { label: "Telefone", href: "tel:+351-21-xxxxxxx" },
                 { label: "Email", href: "mailto:info@sabordosanjos.pt" },
                 { label: "Reservas", href: "/contacto" },
@@ -191,8 +192,7 @@ export default function HomePage() {
               ],
             },
             {
-              title: "Localização",
-              items: [
+              title: "Localização",              items: [
                 { label: "Queluz, Portugal", href: "#location" },
                 { label: "Ver no Mapa", href: "https://maps.google.com/?q=Sabor+Dos+Anjos+Queluz" },
                 { label: "Horário", href: "#location" },
@@ -200,8 +200,7 @@ export default function HomePage() {
               ],
             },
             {
-              title: "Menu",
-              items: [
+              title: "Menu",              items: [
                 { label: "Início", href: "/" },
                 { label: "Menu", href: "/menu" },
                 { label: "Sobre Nós", href: "/sobre-nos" },
